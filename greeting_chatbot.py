@@ -4,8 +4,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler,MessageHandler, Filters
 
 
-bot_token = '6136579348:AAHpzbv9Xu5Wf8N8QvqhbxvCgUtG855OopM'
-openai.api_key = "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"
+bot_token = ''
+openai.api_key = ""
 
 
 # Define the function that uses the ChatGPT model to generate a response
